@@ -1,5 +1,5 @@
-import {InvoicesSkeleton} from '@/app/ui/skeletons';
+import {CustomersSkeleton} from '@/app/ui/skeletons';
  
 export default function Loading() {
-  return <InvoicesSkeleton />;
+  return <CustomersSkeleton />;
 }

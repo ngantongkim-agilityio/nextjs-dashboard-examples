@@ -217,7 +217,7 @@ export function InvoicesTableSkeleton() {
   );
 }
 
-export const InvoicesSkeleton = () => {
+export const CustomersSkeleton = () => {
   return (
     <>
     <div
