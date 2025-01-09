@@ -216,3 +216,17 @@ export function InvoicesTableSkeleton() {
     </div>
   );
 }
+
+export const InvoicesSkeleton = () => {
+  return (
+    <>
+    <div
+      className={`${shimmer} relative h-8 w-36 overflow-hidden rounded-md bg-gray-100`}
+    />
+    <div
+      className={`${shimmer} relative mt-4 h-10 w-full md:mt-8 overflow-hidden rounded-md bg-gray-100`}
+    />
+    <InvoicesTableSkeleton />
+  </>
+  )
+}
